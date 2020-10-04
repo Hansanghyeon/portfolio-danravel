@@ -1,0 +1,285 @@
+body {
+  background: #202124;
+}
+header {
+  background: #f8e100;
+  width: 800px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 130px;
+  box-shadow: 0px 10px 30px 5px #000;
+  position: relative;
+  z-index: 10;
+  font-family: "Audiowide", cursive;
+}
+header ul li p {
+  font-family: "Audiowide", cursive;
+  font-size: 25px;
+  position: relative;
+  top: 28px;
+  cursor: pointer;
+}
+header ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+header ul li:nth-of-type(1) p {
+  left: 20px;
+}
+header ul li:nth-of-type(1) {
+  width: 15%;
+}
+header ul li:nth-of-type(2) {
+  width: 25%;
+}
+header ul li:nth-of-type(3) {
+  background-color: white;
+  height: 160px;
+  position: absolute;
+  left: 320px;
+  border-radius: 15px;
+  top: -45px;
+  box-shadow: 0px 10px 15px 0.001px #000;
+}
+header ul li h1 {
+  display: inline-block;
+  width: 100%;
+  height: 105px;
+  background: url(../static/img/logo.png) no-repeat center top;
+  background-size: 95%;
+  top: 10px;
+  position: relative;
+}
+header ul li h2 {
+  position: relative;
+  top: 62px;
+  font-size: 12px;
+  color: #f8e100;
+}
+
+/*section1_start*/
+.ma01 {
+  background: url(../static/img/ma01bg.png) no-repeat center top;
+  background-size: 100%;
+  width: 960px;
+  height: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 5px #000;
+  position: relative;
+  z-index: 1;
+}
+.ma01 .ma11 {
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 550px;
+  position: relative;
+  z-index: 10;
+}
+.ma01 .ma11 .ma21 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0px 5px 35px 5px rgba(0, 0, 0, 0.8);
+}
+.ma01 .ma11 .ma21 img {
+  width: 100%;
+  position: relative;
+  transform-origin: center center;
+  top: -220px;
+}
+.ma01 .ma11 .ma21 .ma31 {
+  position: absolute;
+  width: 170px;
+  height: 110px;
+  background: #fff;
+  top: 570px;
+  margin-left: 130px;
+  text-align: center;
+  box-shadow: 15px 0px 35px 7px rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+.ma01 .ma11 .ma21 .ma31 h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #999;
+}
+.ma01 .ma11 .ma21 .ma31 h2 {
+  font-size: 56px;
+  margin-top: 5px;
+  font-style: italic;
+  font-family: "NanumSquare";
+  letter-spacing: -7px;
+  color: #f8e100;
+}
+.ma01 .ma12 {
+  background: rgba(255, 255, 255, 0.7);
+  width: 960px;
+  height: 275px;
+  position: relative;
+  bottom: 75px;
+  z-index: 0;
+}
+.ma01 .ma11 .ma32 {
+  position: absolute;
+  width: 130px;
+  height: 150px;
+  background: url(../static/img/ticket2.png) no-repeat left top;
+  background-color: #f80017;
+  top: 550px;
+  right: 0;
+  text-align: center;
+  transition: all 0.3s;
+}
+.ma01 .ma11 .ma32 i {
+  font-size: 50px;
+  top: 50px;
+  position: relative;
+  float: right;
+  right: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: scale(1);
+  transform-origin: center center;
+}
+.ma01 .ma11 .ma32 i:hover {
+  color: #f8e100;
+  transform: scale(1.2);
+}
+/*section1_end*/
+
+/*section2_start*/
+.ma02 {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  margin-top: -110px;
+}
+.ma02 .ribbon {
+  background: #f8e100;
+  width: 45px;
+  height: 70px;
+  transform: skewX(135deg) skewY(45deg);
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  box-shadow: -5px 0px 15px 1px rgba(0, 0, 0, 0.3);
+}
+.ma02 .ribbon2 {
+  background: #f8e100;
+  width: 43px;
+  height: 70px;
+  transform: skewX(135deg) skewY(0deg);
+  position: absolute;
+  left: 27px;
+  top: -10px;
+}
+
+.ma02 .ma12 {
+  background: #fff;
+  width: 100%;
+  height: 420px;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.8);
+}
+.ma02 .ma12 img {
+  width: 100%;
+  position: absolute;
+  top: -120px;
+  left: -230px;
+  transform: rotateZ(10deg);
+}
+.ma02 .ma12 p {
+  position: relative;
+  float: right;
+  width: 400px;
+  line-height: 1.5;
+  top: 15px;
+  font-size: 15px;
+}
+.ma02 .ma12 p:nth-child(1) {
+  width: 460px;
+  font-size: 75px;
+  font-style: italic;
+  top: 55px;
+}
+.ma02 .ma12 h1 {
+  float: right;
+  width: 100%;
+  height: 180px;
+}
+.ma02 .ma22 {
+  background: #fff;
+  width: 100%;
+  height: 270px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.ma02 .ma22 img {
+  width: 190px;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 485px;
+}
+.ma02 .ma22 img:nth-child(5) {
+  top: 460px;
+  left: 0;
+  height: 270px;
+  width: 220px;
+}
+.ma02 .ribbon3 {
+  width: 300px;
+  height: 290px;
+  background: yellow;
+  position: relative;
+  float: right;
+  right: -140px;
+  top: 90px;
+  transform: rotateZ(40deg);
+  transform-origin: center center;
+}
+.ma02 .ma22 h1 p {
+  float: right;
+  width: 500px;
+  text-align: right;
+  position: relative;
+  right: -38px;
+  margin-top: 10px;
+  font-size: 60px;
+  font-style: italic;
+  line-height: 1;
+}
+.ma02 .ma22 p {
+  float: right;
+  position: relative;
+  right: -40px;
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+footer {
+  background: #fff;
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+footer img {
+  width: 100px;
+  margin: 30px;
+}
+p {
+  font-family: "NanumSquareRound";
+  font-weight: 300;
+}
